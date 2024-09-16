@@ -1,0 +1,65 @@
+body {
+  background-image: url(/images/img.jpg);
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.loginn {
+  width: 30%;
+  height: 560px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  border: 2px solid rgba(225, 225, 225, 0.2);
+  border-radius: 8px;
+  backdrop-filter: blur(20px);
+}
+
+.loginnn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+label,
+h1 {
+  color: aliceblue;
+  text-align: center;
+}
+
+input {
+  border-radius: 10px;
+  border: none;
+  width: 250px;
+  height: 30px;
+  background: transparent;
+  border: 2px solid rgba(225, 225, 225, 0.4);
+}
+
+input::placeholder {
+  color: grey;
+}
+
+button {
+  width: 150px;
+  height: 60px;
+  border-radius: 12px;
+  border: none;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+  color: blueviolet;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: chartreuse;
+}
